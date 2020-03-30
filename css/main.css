@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "FuturaPT-Heavy";
+    src: url("../fonts/FuturaPT-Heavy.ttf");
+    font-family: "myGeorgia";
+    src: url("../fonts/georgia.ttf");
+    font-family: "myGeorgiaItalic";
+    src: url("../fonts/georgiaItalic.ttf");
+    font-family: "PlayfairDisplay";
+    src: url("../fonts/PlayfairDisplay-Regular.ttf");
+    font-family: "ProximaNovaRegular";
+    src: url("../fonts/ProximaNovaRegular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer {
+    padding-top: 150px;
+    background-color: rgb(70, 79, 84);
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+
+.headerTitle {
+    width: 876px;
+    position: absolute;
+    top: 47px;
+    right: 0;
+}
+
+.headerTitle::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.headerTitle .containerTitleBlack {
+    height: 187px;
+    width: 876px;
+    background-color: rgb(24, 24, 24);
+    box-shadow: 0 4px 2px 0 rgb(98, 99, 98);
+}
+
+.headerTitle .containerTitleBlack .contentInputTitle {
+    padding: 45px 0 0 50px;
+}
+
+.headerTitle .containerTitleBlack .contentInputTitle label {
+    font-family: "ProximaNovaRegular";
+    font-size: 15px;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    color: rgb(180, 180, 180);
+}
+
+.headerTitle .containerTitleBlack .contentInputTitle input {
+    display: block;
+    background-color: rgb(24, 24, 24);
+    border: none;
+    outline: none;
+    font-family: "PlayfairDisplay";
+    font-size: 48px;
+    color: white;
+}
+
+.headerTitle .containerTitleBlack .contentInputTitle .hrHorizontal {
+    margin-top: 18px;
+    width: 831px;
+    border: 1.5px solid;
+    border-color: rgb(105, 105, 105);
+    height: 0px;
+    margin-left: -5px;
+}
+
+.headerTitle .containerTitleIcons {
+    background-color: rgb(247, 189, 44);
+    width: 812px;
+    height: 75px;
+    float: right;
+    box-shadow: -4px 0 2px rgb(212, 164, 40);
+}
+
+.headerTitle .containerTitleIcons .allIcons {
+    margin: 25px 0 0 50px;
+}
+
+.headerTitle .containerTitleIcons i,
+.containerTitleIcons svg {
+    font-size: 29px;
+    color: rgb(249, 219, 147);
+    padding-right: 30px;
+    float: left;
+    width: 60px;
+    height: 45px;
+}
+
+.containerTitleIcons svg {
+    margin-top: -7px;
+    fill: rgb(249, 219, 147);
+}
+
+.headerTitle .containerTitleIcons i:hover,
+.containerTitleIcons svg:hover {
+    color: rgb(254, 254, 254);
+    fill: rgb(254, 254, 254);
+}
+
+.containerContent {
+    width: 1060px;
+    margin: 0 auto;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 2px 35px 40px 70px;
+}
+
+.containerContent .hrLeft {
+    border: 1.5px solid rgb(231, 235, 236);
+    height: 712px;
+    width: 2px;
+    left: 67px;
+    top: 0;
+    float: left;
+}
+
+.containerContent .allContentText {
+    padding-top: 201px;
+    padding-left: 56px;
+}
+
+.containerContent .allContentText h4 {
+    font-family: "ProximaNovaRegular";
+    font-size: 20px;
+    color: rgb(160, 158, 158);
+    letter-spacing: 4px;
+    font-weight: normal;
+}
+
+.containerContent .allContentText h2 {
+    text-transform: uppercase;
+    font-family: "FuturaPT-Heavy";
+    font-size: 74px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.containerContent .allContentText .whereAmI {
+    font-family: "myGeorgiaItalic";
+    font-size: 32px;
+    color: rgb(143, 143, 143);
+    font-style: italic;
+    margin-bottom: 60px;
+}
+
+.containerContent .allContentText p {
+    font-size: 27px;
+    color: black;
+    font-family: "myGeorgia";
+    padding-right: 130px;
+    text-align: justify;
+}
+
+.containerContent .allContentText p:not(.noBottom) {
+    margin-bottom: 40px;
+}
